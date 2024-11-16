@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+        }
+        .navbar{
+            height:60px;
+            background-color: black;
+            color:white;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-logo{
+            display:flex;
+            align-items: center;
+            width:200px;
+            height:50px;
+            margin-right:15px;
+        }
+        .amazon-logo{
+            width:100px;
+
+        }
+
+        .logo{
+            width:110px;
+            display:flex;
+            
+            
+        }
+        
+        
+        .add-icon{
+            display:flex;
+            align-items: center;
+        }
+        .add-first{
+            font-size:0.87rem;
+            font-family: arial;
+            margin-left:15px;
+            margin-right:10px;
+        }
+        .add-sec{
+            font-size:0.8rem;
+            margin-left:3px;
+            font-family: arial;
+
+        }
+        .nav-address{
+            display:flex;
+            align-items: center;
+            flex-direction: column;
+            line-height:0px;
+            width:100px;
+        }
+        .nav-search{
+            display:flex;
+            background-color: pink;
+            flex:1;
+            width:0px;
+            max-width: 600px;
+            height:40px;
+            border-radius: 4px;
+            flex-shrink: 0;
+        }
+        .nav-search:hover{
+            border:2px solid orange;
+        }
+        .search-icon{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color: orange;
+            width:45px;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+        .search-select{
+            height:40px; 
+            border:none;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+            text-align: center;
+
+        }
+        .search-input{
+            flex:1;
+            border:none;
+            font-size:20px;
+        }
+        .search-input:focus{
+            outline:none;
+
+        }
+        
+        
+        .search-icon i{
+            font-size:20px;
+            color:black;  
+        }
+        .border:hover{
+            border:1.5px solid white;
+        }
+        .border{
+            border:1.5px solid transparent;
+
+        }
+        .nav-signin{
+            display:flex;
+            
+            align-items: center;
+            justify-content: space-between;
+            margin-right:20px;
+        }
+        span{
+            font-size: 14px;
+            font-weight: 700;
+            font-family: arial;
+        }
+        .nav-second{
+            font-family: arial;
+            font-size:0.7rem;
+        }
+        .nav-cart i{
+            font-size:20px;
+        }
+        .nav-cart{
+            
+            font-size:1rem;
+            font-weight:700;
+        }
+        .nav-sign{
+            display:flex;
+            margin-right:10px;
+        }
+       .nav-returns{
+        margin-right:10px;
+       }
+        
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo border">
+                    <img class="amazon-logo" src="thumbnails/amazon_logo.png">
+                </div>
+                <div class="nav-address border">
+                    <p class="add-first">Deliver to</p>
+                    <div class="add-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="add-sec">India</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>ALL</option>
+                </select>
+                <input class="search-input" placeholder="Search Amazon">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin">
+                <div class="nav-sign border" >
+                    <p class="nav-second">Hello,sign in<br>
+                        <span>Accounts & list</span>
+                    </p>
+                </div>
+                <div class="nav-returns border">
+                    <p class="nav-second">Returns<br>
+                    <span>&orders</span></p>
+                </div>
+                <div class="nav-cart border">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    cart
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="small-navbar">
+        <div class="nav">
+            <div> 
+                <i class="fa-solid fa-bars "></i>
+                All
+            </div>
+            <div >Fresh Meat</div>
+            <div >Amazon miniTv</div>
+            <div >Sell</div>
+            <div >Amazon pay</div>
+            <div >GiftCards</div>
+            <div> Buy Again</div>
+            <div >Health,Houshhold&Personal Care</div>
+            <div > Coupons</div>
+            <div>Books</div>
+        </div>
+        <div class="right-navbar">
+           shop delas in Electronics 
+        </div>
+       
+        
+        
+    </nav>
+</body>
+</html>

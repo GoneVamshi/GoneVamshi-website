@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube.com</title>
+    <style>
+        .container{
+            width:300px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+            
+           
+           
+            
+            
+        }
+        .cat{
+            width:300px;
+            height:300px;
+            object-fit: cover;
+            margin-bottom: 10px;
+           
+        }
+        .name{
+            
+            font-family:arial;
+            font-size:20px;
+            font-weight:bold;
+            margin-left:10px;
+            margin-bottom: 5px;
+            
+        }
+        .container2{
+            margin-left:10px;
+            margin-bottom:10px;
+            margin-top:0px;
+            display: grid;
+            grid-template-columns: 35px 1fr;
+            align-items: center;
+            
+            
+            
+            
+        }
+        .dog{
+            width:25px;
+            height:25px;
+            margin-right: 10px;
+            object-fit: cover;
+            border-radius:14px;
+            vertical-align: middle;
+            
+            
+        }
+        .paragraph{
+            
+            color: rgb(100, 100, 100);
+            font-family: arial;
+          
+    
+            
+        }
+        .friend{
+           
+            background-color: rgb(22, 116, 232);
+            color:white;
+            border:none;
+            font-size: 15px;
+            font-family: arial;
+            padding-top:12px;
+            padding-bottom: 12px;
+            padding-left:20px;
+            padding-right: 20px;
+            border-radius: 8px;
+            margin-left:10px;
+            margin-bottom: 10px;
+            cursor:pointer;
+        }
+        .grid{
+            display:grid;
+            grid-template-columns: 300px 300px 300px;
+            column-gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="container">
+            <img  class="cat"src="thumbnails/cat.jpg">
+            <p class="name">Oliver</p>
+            <div class="container2">
+                <img class="dog"src="thumbnails/dog2.jpg">
+                <p class="paragraph"> 2 mutual friends</p>
+            </div>
+            <button class="friend">Add Friend</button>
+        </div>
+        <div class="container">
+            <img  class="cat"src="thumbnails/cat2.jpg">
+            <p class="name">Mimi</p>
+            <div class="container2">
+                <img class="dog"src="thumbnails/dog2.jpg">
+                <p class="paragraph"> 3 mutual friends</p>
+            </div>
+            <button class="friend">Add Friend</button>
+        </div>
+        <div class="container">
+            <img  class="cat"src="thumbnails/dog.jpg">
+            <p class="name">Rex</p>
+            <div class="container2">
+                <img class="dog"src="thumbnails/dog2.jpg">
+                <p class="paragraph"> 4 mutual friends</p>
+            </div>
+            <button class="friend">Add Friend</button>
+        </div>
+    </body>
+    </html>

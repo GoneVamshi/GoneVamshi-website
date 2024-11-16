@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height:3000px;
+        }
+        
+        
+        .side-bar{
+            width:100px;
+            background-color: black;
+            position: fixed;
+            top:0px;
+            left:0px;
+            bottom:0px;
+
+        }
+        .side-bar2{
+            width:300px;
+            background-color: rgb(44, 42, 42);
+            position:fixed;
+            top:0px;
+            left:100px;
+            bottom:0px;
+            
+            
+        }
+        .cat{
+            width:50px;
+            height:50px;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-left:20px;
+            margin-top:30px;
+            margin-bottom: 5px;
+            
+            
+        }
+        .cat1{
+            width:50px;
+            height:50px;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-left:20px;
+            margin-bottom: 5px;
+        }
+        .cat2{
+            width:50px;
+            height:50px;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-left:20px;
+        }
+        .info{
+            margin-top:20px;
+            color:white;
+            font-family: arial;
+            margin-left:20px;
+            margin-bottom:15px;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .videos{
+            font-family: arial;
+            color:white;
+            margin-left: 25px;
+            margin-bottom:15px;
+        }
+        .updates{
+            font-family: arial;
+            color:white;
+            margin-left: 25px;
+            margin-bottom:15px;
+        }
+        .faq{
+            font-family: arial;
+            color:white;
+            margin-left: 25px;
+            margin-bottom:15px;
+        }
+        .plus{
+            margin-right:30px;
+            font-size: 30px;
+            color:rgb(99, 97, 97);
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="side-bar">
+            <div><img class="cat" src="thumbnails/cat.jpg"></div>
+            <div><img class="cat1" src="thumbnails/cat2.jpg"></div>
+            <div><img class="cat2" src="thumbnails/dog.jpg"></div>
+        </div>
+        <div class="side-bar2">
+            <div class="info">INFO
+                <div class="plus">+</div>
+            </div>
+            <div class="videos"> #new-videos</div>
+            <div class="updates"> #updates</div>
+            <div class="faq"># faq</div>
+        </div>
+    </div>
+</body>
+</html>

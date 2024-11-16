@@ -1,0 +1,16 @@
+.name{
+    display: block;
+    
+    margin-bottom:10px;
+}
+.email{
+    display:block;
+    
+    margin-top:0px;
+}
+p{
+    width:215px;
+    display:inline-block;
+    vertical-align: middle;
+    
+}

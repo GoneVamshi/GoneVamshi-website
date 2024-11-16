@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin:0;
+        }
+        p{
+            font-family:arial;
+        }
+        .navbar{
+            height:60px;
+            background-color: black;
+            color:white;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-logo{
+            height:50px;
+            width:110px;
+            margin-right:10px;
+        }
+        .logo{
+            background-image:url("thumbnails/amazon_logo.png");
+            background-size: cover;
+            height:50px;
+            width:100px;
+
+        }
+        .nav-address{
+            margin-right:10px;
+        }
+        .border{
+            border:1.5px solid transparent;
+
+        }
+        .border:hover{
+            border:1.5px solid white;
+        }
+        .add-first{
+            color:#cccccc;
+            font-size:0.85rem;
+            margin-left:15px;
+
+        }
+        .add-sec{
+            font-size:1rem;
+            margin-left:3px;
+        }
+        .add-icon{
+            display:flex;
+            align-items: center;
+        }
+        .nav-search{
+            display:flex;
+            justify-content: space-evenly;
+            background-color: pink;
+            width:620px;
+            height:40px;
+            border-radius:4px;
+            margin-right:10px;
+        }
+        .search-select{
+            background-color: #f3f3f3;
+            width:50px;
+            text-align: center;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius:4px;
+            border:none;
+        }
+        .search-input{
+            width:100%;
+            font-size:1rem;
+            border:none;
+            
+        }
+        .search-icon{
+            width:45px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            font-size:1.2rem;
+            background-color: rgb(255, 173, 9);
+            border-top-right-radius: 4px;
+            border-bottom-right-radius:4px;
+            color:black;
+        }
+        span{
+            font-size:0.7rem;
+        }
+        .nav-second{
+            font-size:0.85rem;
+            font-weight:700;
+        }
+        .nav-search:hover{
+            border:2px solid orange;
+        }
+        .nav-cart i{
+            font-size:30px;
+        }
+        .nav-cart{
+            font-size:1rem;
+            font-weight:700;
+        }
+        .nav-signin{
+            margin-right:10px;
+            
+        }
+        .nav-return{
+            margin-right:10px;
+        }
+        .search-input:focus{
+            outline:none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            
+
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-sec">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input  class="search-input"placeholder="search amazon">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin border">
+                <p><span>Hello,sign in</span></p>
+                <p  class="nav-second">Accounts & list</p>
+            </div>
+
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p  class="nav-second">&orders</p>
+            </div>
+
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+
+            
+        </div>
+    </header>
+</body>
+</html>

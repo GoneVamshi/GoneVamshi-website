@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(167, 17, 212);
+            color:white;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+
+        }
+       .flex{
+        
+        width:500px;
+        height:500px;
+        padding:30px;
+        box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+        display:flex;
+        
+        
+        
+
+       }
+       
+       
+       .name{
+        font-size: 20px;
+        font-family: arial;
+
+       }
+       .text{
+        padding:5px;
+        width:200px;
+        border-radius: 10px;
+        border-style:solid;
+        border-width:1px;
+        
+       }
+       .page{
+        width:200px;
+        height:25px;
+        vertical-align: middle;
+       }
+       .flex2{
+        margin-left:120px;
+        margin-top:100px;
+        
+       }
+        
+       
+
+            
+        
+    </style>
+</head>
+<body>
+    <forms>
+        <div class="flex">
+            <div class="flex2">
+                <label class="name" for="name">Name:</label>
+                <input  class="text" type="text" id="name" name="name">
+                <br>
+                <br>
+                <label class="name" for="email">Email:</label>
+                <input class="text" type="email" id="email" name="email">
+                <br>
+                <br>
+                <label class="name" for="gender">Gender:</label>
+                <input  type="radio" id="male" name="gender" value="male">
+                <label  class="name"for="male"> male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label class="name" for="female"> female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label class="name" for="other"> other</label>
+                <br>
+                <br>
+                <label class="name" for="country"> Country:</label>
+                <select class="text" id="country" name="country">
+                    <option class="name" value="India">India</option>
+                    <option  class="name"value="canada">canada</option>
+                    <option class="name" value="uk">UK</option>
+                </select>
+                <br>
+                <br>
+                <label class="name"for="message">message</label>
+                <textarea class="page" id="message" name="message" rows="5" cols="40"></textarea>
+                <br>
+                <br>
+                <input class="text" type="submit">
+
+            </div>
+        </div>
+       
+
+
+    </forms>
+</body>
+</html>
